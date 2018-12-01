@@ -1,5 +1,5 @@
 # @skt-t1-byungi/parcel-plugin-server
-A parcel plugin to setup express server app.
+Parcel plugin for dev server setting.
 
 > WIP
 

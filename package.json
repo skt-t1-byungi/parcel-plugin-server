@@ -1,6 +1,6 @@
 {
     "name": "@skt-t1-byungi/parcel-plugin-server",
-    "description": "A parcel plugin to setup express server app.",
+    "description": "Parcel plugin for dev server setting.",
     "version": "0.0.2",
     "main": "lib/index.js",
     "license": "MIT",
