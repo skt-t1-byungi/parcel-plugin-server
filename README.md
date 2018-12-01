@@ -3,7 +3,7 @@ A parcel plugin to setup express server app.
 > WIP
 
 ## Usage
-`.parcel-server.config.js` - located at package root.
+`parcel-server.config.js` - located at package root.
 ```js
 module.exports = {
     after(app, server, bundler){
