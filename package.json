@@ -1,5 +1,6 @@
 {
     "name": "@skt-t1-byungi/parcel-plugin-server",
+    "description": "A parcel plugin to setup express server app.",
     "version": "0.0.1",
     "main": "lib/index.js",
     "license": "MIT",
@@ -36,5 +37,8 @@
     },
     "eslintConfig": {
         "extends": "byungi"
+    },
+    "publishConfig": {
+        "access": "public"
     }
 }
