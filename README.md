@@ -4,10 +4,10 @@ A parcel plugin to setup express server app.
 > WIP
 
 ## Usage
-`parcel-server.config.js` - located at package root.
+`parcel-server.config.js`
 ```js
-module.exports = {
-    after(app, server, bundler){
+module.exports = bundler => ({
+    after(app, server){
         app.get('script.js', (req, res) => {
             const js = [...bundler.bundleHashes.keys()].find(s => s.endsWith('.js'))
             res.sendFile(js)
@@ -16,7 +16,7 @@ module.exports = {
     proxy: {
         '/api/*': 'http://example.org'
     }
-}
+})
 ```
 
 ## License
