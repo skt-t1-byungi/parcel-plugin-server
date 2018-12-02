@@ -1,10 +1,15 @@
 # @skt-t1-byungi/parcel-plugin-server
 Parcel plugin for dev server setting.
 
-> WIP
+## Install
+```sh
+yarn add @skt-t1-byungi/parcel-plugin-server --dev
+```
 
 ## Usage
-`parcel-server.config.js`
+Write the configuration file to the root of the package.
+
+`package/parcel-server.config.js`
 ```js
 module.exports = bundler => ({
     after(app, server){
@@ -17,6 +22,19 @@ module.exports = bundler => ({
         '/api/*': 'http://example.org'
     }
 })
+```
+
+Run parcel bundler as usual.
+`package/package.json`
+```json
+{
+    "scripts": {
+        "dev": "parcel src/index.html  -d build --port 3000"
+    }
+}
+```
+```sh
+yarn run dev
 ```
 
 ## License
