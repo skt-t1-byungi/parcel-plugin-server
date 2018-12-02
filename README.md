@@ -25,6 +25,7 @@ module.exports = bundler => ({
 ```
 
 Run parcel bundler as usual.
+
 `package/package.json`
 ```json
 {
