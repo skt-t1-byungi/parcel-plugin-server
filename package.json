@@ -1,7 +1,7 @@
 {
     "name": "@skt-t1-byungi/parcel-plugin-server",
     "description": "Parcel plugin for dev server setting.",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "main": "lib/index.js",
     "license": "MIT",
     "engines": {
