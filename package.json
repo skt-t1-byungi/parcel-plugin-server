@@ -4,6 +4,9 @@
     "version": "0.0.5",
     "main": "lib/index.js",
     "license": "MIT",
+    "engines": {
+        "node": ">=8"
+    },
     "files": [
         "lib"
     ],

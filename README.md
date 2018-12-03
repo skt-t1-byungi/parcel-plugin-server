@@ -13,7 +13,7 @@ Write the configuration file to the root of the package.
 ```js
 module.exports = bundler => ({
     after(app, server){
-        app.get('script.js', (req, res) => {
+        app.get('/script.js', (req, res) => {
             const js = [...bundler.bundleHashes.keys()].find(s => s.endsWith('.js'))
             res.sendFile(js)
         })
