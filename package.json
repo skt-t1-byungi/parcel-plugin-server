@@ -1,7 +1,7 @@
 {
     "name": "@skt-t1-byungi/parcel-plugin-server",
     "description": "Parcel plugin for dev server setting.",
-    "version": "0.1.0",
+    "version": "0.0.7",
     "main": "lib/index.js",
     "license": "MIT",
     "engines": {
@@ -24,6 +24,9 @@
     "repository": {
         "type": "git",
         "url": "https://github.com/skt-t1-byungi/parcel-plugin-server.git"
+    },
+    "scripts": {
+        "test": "echo pass"
     },
     "dependencies": {
         "@parcel/logger": "^1.11.0",
