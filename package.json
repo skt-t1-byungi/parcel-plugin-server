@@ -26,17 +26,18 @@
         "url": "https://github.com/skt-t1-byungi/parcel-plugin-server.git"
     },
     "dependencies": {
+        "@parcel/logger": "^1.11.0",
         "cosmiconfig": "^5.0.7",
         "express": "^4.16.4",
         "http-proxy-middleware": "^0.19.1"
     },
     "peerDependencies": {
-        "parcel-bundler": "^1.10.3"
+        "parcel-bundler": "^1.11.0"
     },
     "devDependencies": {
         "eslint": "^5.9.0",
         "eslint-config-byungi": "^0.2.3",
-        "parcel-bundler": "^1.10.3"
+        "parcel-bundler": "^1.11.0"
     },
     "eslintConfig": {
         "extends": "byungi"

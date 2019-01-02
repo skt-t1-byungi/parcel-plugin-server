@@ -1,6 +1,8 @@
 # @skt-t1-byungi/parcel-plugin-server
 Parcel plugin for dev server setting.
 
+[![npm](https://flat.badgen.net/npm/v/@skt-t1-byungi/parcel-plugin-server)](https://www.npmjs.com/package/@skt-t1-byungi/parcel-plugin-server)
+
 ## Install
 ```sh
 yarn add @skt-t1-byungi/parcel-plugin-server --dev
